@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(16, 14, 14);
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+    height: 150;
+}
+h1{
+    font-size: 34px;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 15px;
+    color: rgb(44, 41, 41);
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(207, 167, 244);
+}
+.presentacion h1{
+    font-size: 45px;
+    color: black;
+    font-family: "Reenie Beanie", cursiva; peso de fuente: 400; estilo de fuente: normal;
+}
+.presentacion p{
+    width: 100%;
+    font-size: 40px;
+    padding: 10px;
+    font-family: "Reenie Beanie", cursiva; peso de fuente: 400; estilo de fuente: normal;
+}
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(11, 11, 11);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{
+    background-origin: padding-box;
+}
+.caja p{
+    font-size: 30px;
+    color: blueviolet;
+}
+
